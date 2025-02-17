@@ -25,9 +25,10 @@ function Navbar() {
             <div className="logo flex items-center gap-3">
                 <img className="rounded-full h-12 w-12 shadow-lg border-4 border-gradient-to-r from-pink-500 to-purple-500" src={logo} alt="Logo" />
                 <NavLink to='/'>
-                    <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 animate-pulse shadow-lg">
-                        Book<span className="text-white">Heaven</span>
-                    </h1>
+                <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 drop-shadow-lg tracking-wide animate-pulse">
+    Book<span className="text-white">Haven</span>
+</h1>
+
                 </NavLink>
             </div>
 

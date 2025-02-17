@@ -8,10 +8,11 @@ function Hero() {
             {/* Text Section */}
             <div className="w-full md:w-3/6 my-auto px-6 py-8 md:py-0 items-center">
                 <h1 className="my-4 text-yellow-600 text-3xl md:text-5xl font-semibold">
-                    Discover Your Next <p>Great Read</p>
+                Explore the World of <span className="block">Knowledge</span>
                 </h1>
                 <p className="mr-6 my-4 text-white text-base md:text-lg">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, repellendus quidem corporis quasi sint officiis earum illo suscipit ab reiciendis assumenda, sunt, exercitationem vel natus eligendi delectus ut voluptas provident.
+                Dive into a vast collection of books and uncover new perspectives, stories, and ideas. 
+                Whether you love fiction, non-fiction, or anything in between, we have something for everyone.
                 </p>
                 
                 <NavLink to='/allbooks'>
